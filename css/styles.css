@@ -1,0 +1,12 @@
+:root {
+  --main-bg-color: #e5e5e5;
+  --banner-bg-color: #2f303a;
+  --team-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+
+  --section-title-size: 36px;
+  --section-title-lineHeight: 42px;
+  --section-title-color: #212121;
+  --section-title-wegth: 700;
+  --section-title-style: normal;
+}
