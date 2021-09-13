@@ -11,25 +11,29 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <div class="wrapper container">
+    <div class="wrapper">
         <header class="header">
-            <a href="./index.html" class="header__logo logo"><span>Web</span>Studio</a>                                
-            <nav class="header__menu menu">
-                <ul class="menu__list">
-                    <li><a href="/" class="menu__link">Студия</a></li>
-                    <li><a href="./portfolio.html" class="menu__link">Портфолио</a></li>
-                    <li><a href="#" class="menu__link">Контакты</a></li>
-                 </ul>             
-            </nav>
-            <ul class="header__contacts contacts">
-                <li><a href="mailto:info@devstudio.com" class="contacts__mail">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="contacts__phone">+38 096 111 11 11</a></li>
-            </ul> 
+            <div class="container">
+                <a href="./index.html" class="header__logo logo">Web<span>Studio</span></a>                                
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li><a href="/" class="menu__link active">Студия</a></li>
+                        <li><a href="./portfolio.html" class="menu__link">Портфолио</a></li>
+                        <li><a href="#" class="menu__link">Контакты</a></li>
+                        </ul>             
+                </nav>
+                <ul class="header__contacts contacts">
+                    <li><a href="mailto:info@devstudio.com" class="contacts__link">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="contacts__link">+38 096 111 11 11</a></li>
+                </ul> 
+            </div>
         </header>
         <main class="page">
             <section class="banner">
-                <h1>Эффективные решения для вашего бизнеса</h1>
-                <button type="button">Заказать услугу</button>
+                <div class="container">
+                    <h1>Эффективные решения для вашего бизнеса</h1>
+                    <button type="button">Заказать услугу</button>
+                </div>
             </section>
             <section class="page__respons respons">
                 <ul class="respons__list">
