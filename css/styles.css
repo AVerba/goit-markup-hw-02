@@ -34,7 +34,7 @@ h6 {
   font-size: inherit;
 }
 body {
-  min-width: 1600px;
+  max-width: 1600px;
   margin: 0;
   padding: 0;
 }
@@ -194,7 +194,6 @@ header {
 .respons__item:nth-child(3) {
   margin: 0 28px 0 0;
 }
-
 /*==========TASKS=========*/
 .page__tasts {
   text-align: center;
