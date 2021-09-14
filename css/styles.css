@@ -39,6 +39,43 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+/* TITLE */
+/* H1 */
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  color: #ffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+/* H2 */
+.sub-title {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* H3 */
+h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+/* LOGO */
 .logo {
   display: inline-block;
   margin: 0 0 0 15px;
@@ -111,15 +148,6 @@ header {
   text-align: center;
 }
 .banner h1 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  color: #ffff;
-  text-align: center;
-  letter-spacing: 0.06em;
-  line-height: 1.36;
-  text-transform: uppercase;
   padding: 0 23%;
 }
 .banner button {
@@ -136,9 +164,82 @@ header {
   border-radius: 4px;
   outline: none;
 }
-
 /*=========RESPONS=========*/
+.respons__item {
+  display: inline-block;
+  text-align: center;
+  width: 23%;
+}
+.respons__item h3 {
+  text-align: center;
+}
+.respons__item p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: left;
+}
 
+/*==========TASKS=========*/
+.page__tasts {
+  text-align: center;
+}
+.tasks__list {
+  margin: 0;
+  padding: 0;
+}
+.tasks__item:nth-child(2) {
+  margin: 0 41px;
+}
+.tasks__item {
+  display: inline-block;
+  text-align: center;
+}
+/*===========TEAM=========*/
+.page__team {
+  background-color: var(--team-bg-color);
+  text-align: center;
+}
+.team__list {
+  margin: 0;
+  padding: 0;
+}
+.team__item {
+  display: inline-block;
+  text-align: center;
+  background-color: #ffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team__item:nth-child(2) {
+  margin: 0 36px;
+}
+.team__item:nth-child(3) {
+  margin: 0 35px 0 0;
+}
+.team__item p:first-of-type {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team__item p:last-of-type {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 /*=========FOOTER===========*/
 .footer {
   background-color: var(--footer-bg-color);
