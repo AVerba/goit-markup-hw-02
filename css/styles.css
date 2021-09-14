@@ -186,8 +186,14 @@ header {
   letter-spacing: 0.03em;
   color: #757575;
   text-align: left;
+  padding: 0 5px 0 0;
 }
-
+.respons__item:nth-child(2) {
+  margin: 0 28px;
+}
+.respons__item:nth-child(3) {
+  margin: 0 28px 0 0;
+}
 /*==========TASKS=========*/
 .page__tasts {
   text-align: center;
