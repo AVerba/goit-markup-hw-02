@@ -95,6 +95,7 @@ header {
   display: inline-block;
   width: 100%;
   padding: 0.925% 0;
+  border-bottom: 1px solid #ececec;
 }
 .header__logo span {
   color: #000;
@@ -283,5 +284,68 @@ header {
   color: rgba(255, 255, 255, 0.6);
 }
 .f-contacts__list li:first-child .f-contacts__link {
+  color: #ffff;
+}
+
+/* =========PORTFOLIO=============== */
+.portfolio__list li {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.portfolio__list li:nth-child(3n + 1),
+.portfolio__list li:nth-child(3n + 2) {
+  margin: 0 30px 30px 0;
+}
+.PItem__title {
+  margin: 20px 0 4px 24px;
+}
+.PItem__group {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 0 0 20px 24px;
+}
+.portfolio__filter {
+  margin: 94px 0 50px 0;
+  text-align: center;
+}
+.form_radio_btn {
+  display: inline-block;
+  margin-right: 10px;
+}
+.form_radio_btn input[type="radio"] {
+  display: none;
+}
+.form_radio_btn label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 6px 22px;
+  line-height: 34px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  user-select: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Checked */
+.form_radio_btn input[type="radio"]:checked + label {
+  background: #2196f3;
+  color: #ffff;
+}
+
+/* Hover */
+.form_radio_btn label:hover {
+  background: #2196f3;
   color: #ffff;
 }
