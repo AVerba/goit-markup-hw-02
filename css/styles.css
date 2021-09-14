@@ -16,8 +16,9 @@ li {
   margin: 0;
   padding: 0;
 }
-a {
-  text-decoration: none; 
+a,
+address {
+  text-decoration: none;
 }
 h1,
 h2,
@@ -25,42 +26,42 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: inherit;
-	font-size: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }
-body{
-  max-width: 1600px;
+body {
+  min-width: 1600px;
   margin: 0;
   padding: 0;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
 }
-/* =======HEADER================ */
-header{
-  display: inline-block;
-  width: 100%;
-  padding: 0.925% 0;  
-}
-.header__logo{
+.logo {
   display: inline-block;
   margin: 0 0 0 15px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  color: #2196F3;
+  color: #2196f3;
+}
+/* =======HEADER================ */
+header {
+  display: inline-block;
+  width: 100%;
+  padding: 0.925% 0;
 }
 .header__logo span {
   color: #000;
 }
 .header__menu {
   display: inline-block;
-  margin: 0 0 0 93px; 
+  margin: 0 0 0 93px;
 }
-.menu__list{
+.menu__list {
   padding: 0;
 }
 .menu__link {
@@ -72,21 +73,21 @@ header{
   color: #000;
   cursor: pointer;
 }
-.menu__list li:nth-child(2){
+.menu__list li:nth-child(2) {
   margin: 0 50px 0 50px;
 }
-.menu__link.active{
-  color: #2196F3;
+.menu__link.active {
+  color: #2196f3;
 }
-.menu__link:hover{
-  color: #2196F3;  
+.menu__link:hover {
+  color: #2196f3;
 }
-.header__contacts{
+.header__contacts {
   display: inline-block;
   margin: 0 15px 0 297px;
   padding: 0;
 }
-.contacts__link{
+.contacts__link {
   display: inline-block;
   font-family: "Roboto";
   font-style: normal;
@@ -97,19 +98,19 @@ header{
   color: #000;
   padding: 0;
 }
-.header__contacts li:first-child{
-  margin:0 50px 0 0;
+.header__contacts li:first-child {
+  margin: 0 50px 0 0;
 }
-.header__contacts a:hover{
-  color: #2196F3;
+.header__contacts a:hover {
+  color: #2196f3;
 }
 /*==========BANNER==========*/
-.banner{
+.banner {
   background-color: var(--banner-bg-color);
   padding: 179px 0;
-  text-align: center; 
- }
-.banner h1{
+  text-align: center;
+}
+.banner h1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -117,7 +118,7 @@ header{
   color: #ffff;
   text-align: center;
   letter-spacing: 0.06em;
-  line-height: 60px;
+  line-height: 1.36;
   text-transform: uppercase;
   padding: 0 23%;
 }
@@ -125,7 +126,7 @@ header{
   width: 200px;
   height: 50px;
   text-align: center;
-  background: #2196F3;
+  background: #2196f3;
   color: #ffff;
   font-family: "Roboto";
   font-style: normal;
@@ -138,4 +139,37 @@ header{
 
 /*=========RESPONS=========*/
 
-
+/*=========FOOTER===========*/
+.footer {
+  background-color: var(--footer-bg-color);
+}
+.footer__logo {
+  margin: 60px 0 20px 15px;
+}
+.footer__logo span {
+  color: #ffff;
+}
+.footer__contacts {
+  font-style: normal;
+  padding: 0 0 60px 0;
+}
+.f-contacts__list {
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+.f-contacts__list li {
+  display: block;
+  margin: 0 0 9px 0;
+}
+.f-contacts__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.f-contacts__list li:first-child .f-contacts__link {
+  color: #ffff;
+}
