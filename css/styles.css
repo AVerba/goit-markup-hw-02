@@ -303,14 +303,14 @@ header {
   margin: 94px 0 50px 0;
   text-align: center;
 }
-.form_radio_btn {
+.filter__btn {
   display: inline-block;
   margin-right: 10px;
 }
-.form_radio_btn input[type="radio"] {
+.filter__btn input[type="radio"] {
   display: none;
 }
-.form_radio_btn label {
+.filter__btn label {
   display: inline-block;
   cursor: pointer;
   padding: 6px 22px;
@@ -326,7 +326,7 @@ header {
 }
 
 /* Checked */
-.form_radio_btn input[type="radio"]:checked + label {
+.filter__btn input[type="radio"]:checked + label {
   background: var(--action-color);
   color: #ffff;
 }
