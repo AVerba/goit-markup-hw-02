@@ -30,95 +30,96 @@
         </header>
         <main class="page">
             <section class="page__portfolio portfolio">
-                <div class="portfolio__filter filter">
-                    <div class="filter__item">
-                        <input type="radio" name="option" id="radio1" checked />
-                        <label for="radio1">Все</label>
+                <div class="container">
+                    <div class="portfolio__filter filter">
+                        <div class="filter__btn">
+                            <input id="all" type="radio" name="radio" value="1" checked>
+                            <label for="all">Все</label>
+                        </div>                         
+                        <div class="filter__btn">
+                            <input id="website" type="radio" name="radio" value="2">
+                            <label for="website">Веб-сайты</label>
+                        </div>                         
+                        <div class="filter__btn">
+                            <input id="application" type="radio" name="radio" value="3">
+                            <label for="application">Приложения</label>
+                        </div>
+                        <div class="filter__btn">
+                            <input id="design" type="radio" name="radio" value="4">
+                            <label for="design">Дизайн</label>
+                        </div>
+                        <div class="filter__btn">
+                            <input id="marketing" type="radio" name="radio" value="5">
+                            <label for="marketing">Маркетинг</label>
+                        </div>
                     </div>
-                    <div class="filter__item">
-                        <input type="radio" name="option" id="radio2" />
-                        <label for="radio2">Веб-сайты</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="option" id="radio3" />
-                        <label for="radio3">Приложения</label>
-                    </div>
-                    <div class="filter__item">
-                        <input type="radio" name="option" id="radio4" />
-                        <label for="radio4">Дизайн</label>
-                    </div>
-                    <div class="filter__item">
-                        <input type="radio" name="option" id="radio5" />
-                        <label for="radio5">Маркетинг</label>
-                    </div>
-                </div>
-                <ul class="portfolio__list">
-                    <li>
-                        <a href="" class="portfolio__item PItem">
-                            <img src="" alt="" class="PItem__img">
-                            <h3 class="PItem__title"></h3>
-                            <p class="PItem__group"></p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="portfolio__item PItem">
-                            <img src="" alt="" class="PItem__img">
-                            <h3 class="PItem__title"></h3>
-                            <p class="PItem__content"></p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="portfolio__item PItem">
-                            <img src="" alt="" class="PItem__img">
-                            <h3 class="PItem__title"></h3>
-                            <p class="PItem__group"></p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="portfolio__item PItem">
-                            <img src="" alt="" class="PItem__img">
-                            <h3 class="PItem__title"></h3>
-                            <p class="PItem__group"></p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="portfolio__item PItem">
-                            <img src="" alt="" class="PItem__img">
-                            <h3 class="PItem__title"></h3>
-                            <p class="PItem__group"></p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="portfolio__item PItem">
-                            <img src="" alt="" class="PItem__img">
-                            <h3 class="PItem__title"></h3>
-                            <p class="PItem__group"></p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="portfolio__item PItem">
-                            <img src="" alt="" class="PItem__img">
-                            <h3 class="PItem__title"></h3>
-                            <p class="PItem__group"></p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="portfolio__item PItem">
-                            <img src="" alt="" class="PItem__img">
-                            <h3 class="PItem__title"></h3>
-                            <p class="PItem__content"></p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="portfolio__item PItem">
-                            <img src="" alt="" class="PItem__img">
-                            <h3 class="PItem__title"></h3>
-                            <p class="PItem__group"></p>
-                        </a>
-                    </li>
-                </ul>              
+                    <ul class="portfolio__list">
+                        <li>
+                            <a href="#" class="portfolio__item PItem">
+                                <img src="./images/portfolio/tekhnokryak.jpg" alt="Веб-сайт Технокряк" class="PItem__img" width="370" height="294">
+                                <h3 class="PItem__title">Технокряк</h3>
+                                <p class="PItem__group">Веб-сайт</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="portfolio__item PItem">
+                                <img src="./images/portfolio/neworleanvsgoldenstar.jpg" alt="Дизайн New Orlean vs Golden Star" class="PItem__img" width="370" height="294">
+                                <h3 class="PItem__title">Постер New Orlean vs Golden Star</h3>
+                                <p class="PItem__group">Дизайн</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="portfolio__item PItem">
+                                <img src="./images/portfolio/deafood.jpg" alt="Приложение Ресторан Seafood" class="PItem__img" width="370" height="294">
+                                <h3 class="PItem__title">Ресторан Seafood</h3>
+                                <p class="PItem__group">Приложение</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="portfolio__item PItem">
+                                <img src="./images/portfolio/prime.jpg" alt="маркетинг Prime" class="PItem__img" width="370" height="294">
+                                <h3 class="PItem__title">Проект Prime</h3>
+                                <p class="PItem__group">Маркетинг</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="portfolio__item PItem">
+                                <img src="./images/portfolio/boxes.jpg" alt="Приложение Проект Boxes" class="PItem__img" width="370" height="294">
+                                <h3 class="PItem__title">Проект Boxes</h3>
+                                <p class="PItem__group">Приложение</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="portfolio__item PItem">
+                                <img src="./images/portfolio/inspirations.jpg" alt="Веб-сайт Inspiration has no Borders" class="PItem__img" width="370" height="294">
+                                <h3 class="PItem__title">Inspiration has no Borders</h3>
+                                <p class="PItem__group">Веб-сайт</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="portfolio__item PItem">
+                                <img src="./images/portfolio/limitededition.jpg" alt="Дизайн Издание Limited Edition" class="PItem__img" width="370" height="294">
+                                <h3 class="PItem__title">Издание Limited Edition</h3>
+                                <p class="PItem__group">Дизайн</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="portfolio__item PItem">
+                                <img src="./images/portfolio/projectlab.jpg" alt=" Маркетинг Проект LAB" class="PItem__img" width="370" height="294">
+                                <h3 class="PItem__title">Проект LAB</h3>
+                                <p class="PItem__group">Маркетинг</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="portfolio__item PItem">
+                                <img src="./images/portfolio/growingbusiness.jpg" alt="приложение Growing Business" class="PItem__img" width="370" height="294"> 
+                                <h3 class="PItem__title">Growing Business</h3>
+                                <p class="PItem__group">Приложение</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>              
             </section>
-
         </main>
         <footer class="footer">
             <div class="container">
