@@ -306,25 +306,22 @@ header {
   color: var(--common-text-color);
   margin: 0 0 20px 24px;
 }
-
 .portfolio__filter {
   margin: 94px 0 50px 0;
   text-align: center;
 }
 .filter__btn {
-  cursor: pointer;
-  padding: 6px 22px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  background: #f5f4fa;
-  border-radius: 4px;
-  user-select: none;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+  padding: 6px 22px;
+  background: #f5f4fa;
+  border-radius: 4px;
   border: inherit;
 }
 .filter__btn.active {
@@ -335,37 +332,3 @@ header {
   background: var(--action-color);
   color: #ffff;
 }
-
-/* .filter__btn {
-  display: inline-block;
-  margin-right: 10px;
-}
-.filter__btn input[type="radio"] {
-  display: none;
-}
-.filter__btn label {
-  display: inline-block;
-  cursor: pointer;
-  padding: 6px 22px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  user-select: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-} */
-
-/* Checked */
-/* .filter__btn input[type="radio"]:checked + label {
-  background: var(--action-color);
-  color: #ffff;
-}
- */
-/* Hover */
-/* .form_radio_btn label:hover {
-  background: var(--action-color);
-  color: #ffff;
-}
- */
