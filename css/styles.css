@@ -310,6 +310,9 @@ header {
   margin: 94px 0 50px 0;
   text-align: center;
 }
+.portfolio__filter li:not(:last-child) {
+  margin: 0 8px 0 0;
+}
 .filter__btn {
   font-family: "Roboto";
   font-style: normal;
